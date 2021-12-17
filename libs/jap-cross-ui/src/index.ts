@@ -1,1 +1,3 @@
-export * from './lib/jap-cross-ui';
+import './styles.css';
+
+export * from './lib/cross';
