@@ -1,6 +1,9 @@
 {
   "version": 2,
   "projects": {
+    "jap-cross": "libs/jap-cross",
+    "jap-cross-data": "libs/jap-cross-data",
+    "jap-cross-ui": "libs/jap-cross-ui",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e"
   }

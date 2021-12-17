@@ -1,0 +1,23 @@
+{
+  "root": "libs/jap-cross-ui",
+  "sourceRoot": "libs/jap-cross-ui/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/jap-cross-ui/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/jap-cross-ui"],
+      "options": {
+        "jestConfig": "libs/jap-cross-ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

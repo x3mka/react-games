@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-games/jap-cross": ["libs/jap-cross/src/index.ts"],
+      "@react-games/jap-cross-data": ["libs/jap-cross-data/src/index.ts"],
+      "@react-games/jap-cross-ui": ["libs/jap-cross-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
