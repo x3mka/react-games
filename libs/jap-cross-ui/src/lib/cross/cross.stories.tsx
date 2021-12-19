@@ -7,7 +7,13 @@ export default {
   title: 'Cross/Cross',
 } as Meta;
 
-const Template: Story<CrossProps> = (args) => <div className="flex"><Cross {...args} /></div>;
+const Template: Story<CrossProps> = (args) => {
+  return (
+    <div className="flex">
+      <Cross {...args} />
+    </div>
+  )
+}
 
 export const S01 = Template.bind({});
 S01.args = {  cross: data['s01'] };

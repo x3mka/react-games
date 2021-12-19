@@ -1,4 +1,4 @@
-import {Cross} from "@react-games/jap-cross";
+import {Cross, CrossData} from "@react-games/jap-cross";
 
 import s01 from './small/s01-smile.json';
 import s02 from './small/s02-dolphin.json';
@@ -17,7 +17,7 @@ const rawCrosses = {
 
 const crosses: Record<string, Cross> = {};
 Object.entries(rawCrosses).forEach(([k, v]) => {
-  crosses[k] = new Cross(v.data);
+  crosses[k] = new Cross(v.data as CrossData);
 })
 
 export default crosses;

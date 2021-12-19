@@ -1,3 +1,3 @@
 import './styles.css';
 
-export * from './lib/cross';
+export * from './lib/grid/grid';

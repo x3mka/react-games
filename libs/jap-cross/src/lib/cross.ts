@@ -1,6 +1,7 @@
 import {leftNumbers, topNumbers, validate} from "./utils";
 
-export type CrossData = number[][];
+export type CrossNumber = 0 | 1;
+export type CrossData = CrossNumber[][];
 
 export class Cross {
 

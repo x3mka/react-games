@@ -3,7 +3,7 @@ import NxWelcome from './nx-welcome';
 
 import { Route, Link } from 'react-router-dom';
 
-import { Cross } from '@react-games/jap-cross-ui';
+import { Grid } from '@react-games/jap-cross-ui';
 
 export function App() {
   return (
@@ -40,7 +40,7 @@ export function App() {
           </div>
         )}
       />
-      <Route path="/jap-cross-ui" component={Cross} />
+      <Route path="/jap-cross-ui" component={Grid} />
       <Route
         path="/page-2"
         exact

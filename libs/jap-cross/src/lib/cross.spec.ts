@@ -1,6 +1,6 @@
-import { Cross } from './cross';
+import {Cross, CrossData} from './cross';
 
-const data = [
+const data: CrossData = [
   [1,1,1,1,1],
   [1,0,1,0,1],
   [1,1,1,1,1],
